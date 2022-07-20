@@ -7,12 +7,13 @@ package http_test
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"fmt"
 	"io"
 	"strings"
 	"testing"
+
+	tls "github.com/bogdanfinn/utls"
 
 	. "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/httptest"

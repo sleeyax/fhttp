@@ -15,7 +15,6 @@ import (
 	"compress/gzip"
 	"context"
 	"crypto/rand"
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"encoding/binary"
 	"errors"
@@ -37,6 +36,8 @@ import (
 	"testing"
 	"testing/iotest"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	. "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/httptest"

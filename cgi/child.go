@@ -9,7 +9,6 @@ package cgi
 
 import (
 	"bufio"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -18,6 +17,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 )

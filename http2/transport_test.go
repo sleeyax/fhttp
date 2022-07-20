@@ -8,7 +8,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"encoding/pem"
 	"errors"
@@ -31,6 +30,8 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/http2/hpack"

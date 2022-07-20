@@ -1,7 +1,6 @@
 package http_test
 
 import (
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"encoding/json"
 	"flag"
@@ -11,6 +10,8 @@ import (
 	"os"
 	"strings"
 	"testing"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/http2"

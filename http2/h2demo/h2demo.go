@@ -7,7 +7,6 @@ package main
 import (
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"flag"
 	"fmt"
 	"hash/crc32"
@@ -25,6 +24,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	"cloud.google.com/go/storage"
 	"github.com/Carcraftz/fhttp/http2"

@@ -8,7 +8,6 @@ package http
 
 import (
 	"bytes"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -16,6 +15,8 @@ import (
 	"net"
 	"strings"
 	"testing"
+
+	tls "github.com/bogdanfinn/utls"
 
 	"github.com/Carcraftz/fhttp/internal"
 )

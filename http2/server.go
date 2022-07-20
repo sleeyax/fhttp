@@ -29,7 +29,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -45,6 +44,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/http2/hpack"

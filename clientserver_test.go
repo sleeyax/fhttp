@@ -11,7 +11,6 @@ import (
 	"compress/gzip"
 	"crypto/rand"
 	"crypto/sha1"
-	tls "github.com/Carcraftz/utls"
 	"fmt"
 	"hash"
 	"io"
@@ -27,6 +26,8 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	. "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/httptest"

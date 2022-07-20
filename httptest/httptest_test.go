@@ -5,12 +5,13 @@
 package httptest
 
 import (
-	tls "github.com/Carcraftz/utls"
 	"io"
 	"net/url"
 	"reflect"
 	"strings"
 	"testing"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 )

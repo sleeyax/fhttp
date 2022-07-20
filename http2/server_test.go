@@ -9,7 +9,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"flag"
 	"fmt"
@@ -27,6 +26,8 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/httptest"

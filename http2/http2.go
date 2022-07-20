@@ -18,7 +18,6 @@ package http2
 
 import (
 	"bufio"
-	tls "github.com/Carcraftz/utls"
 	"fmt"
 	"io"
 	"os"
@@ -26,6 +25,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 

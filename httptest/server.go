@@ -7,7 +7,6 @@
 package httptest
 
 import (
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"flag"
 	"fmt"
@@ -17,6 +16,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	http "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/internal"

@@ -9,7 +9,6 @@ package http_test
 import (
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -24,6 +23,8 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	. "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/cookiejar"

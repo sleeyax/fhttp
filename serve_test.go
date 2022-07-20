@@ -12,7 +12,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -35,6 +34,8 @@ import (
 	"syscall"
 	"testing"
 	"time"
+
+	tls "github.com/bogdanfinn/utls"
 
 	. "github.com/Carcraftz/fhttp"
 	"github.com/Carcraftz/fhttp/httptest"

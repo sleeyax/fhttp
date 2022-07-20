@@ -33,7 +33,7 @@ import (
 
 	"github.com/andybalholm/brotli"
 
-	tls "github.com/Carcraftz/utls"
+	tls "github.com/bogdanfinn/utls"
 
 	"github.com/Carcraftz/fhttp/httptrace"
 
